@@ -1,5 +1,4 @@
 class User {
-    // Komposisi: User memiliki UserProfile
     protected UserProfile userProfile;
 
     public User(UserProfile userProfile) {

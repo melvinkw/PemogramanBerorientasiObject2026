@@ -4,7 +4,7 @@ class UserProfile {
     private String name;
     private int age;
     private String email;
-    private String doc; // Format: jpg, png, pdf
+    private String doc;
 
     public UserProfile(int userId, String password, String name, int age, String email, String doc) {
         this.userId = userId;
@@ -15,14 +15,12 @@ class UserProfile {
         this.doc = doc;
     }
 
-    // Getter methods
     public int getUserId() { return userId; }
     public String getPassword() { return password; }
     public String getName() { return name; }
     public int getAge() { return age; }
     public String getEmail() { return email; }
 
-    // Metode sesuai diagram
     public void editProfile(String newName, String newEmail, int newAge) {
         this.name = newName;
         this.email = newEmail;
