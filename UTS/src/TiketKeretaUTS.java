@@ -1,9 +1,9 @@
-class TiketKereta extends Tiket {
+class TiketKeretaUTS extends TiketUTS {
     protected String namaKereta;
     protected String kelas;
     protected String tanggal;
 
-    public TiketKereta(String idTiket, double hargaDasar, String namaKereta, String kelas, String tanggal) {
+    public TiketKeretaUTS(String idTiket, double hargaDasar, String namaKereta, String kelas, String tanggal) {
         super(idTiket, hargaDasar); // Memanggil constructor Tiket
         this.namaKereta = namaKereta;
         this.kelas = kelas;

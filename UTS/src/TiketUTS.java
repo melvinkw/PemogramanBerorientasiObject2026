@@ -1,8 +1,8 @@
-class Tiket {
+class TiketUTS {
     protected String idTiket;
     protected double hargaDasar;
 
-    public Tiket(String idTiket, double hargaDasar) {
+    public TiketUTS(String idTiket, double hargaDasar) {
         this.idTiket = idTiket;
         this.hargaDasar = hargaDasar;
     }

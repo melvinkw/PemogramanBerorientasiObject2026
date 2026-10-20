@@ -1,4 +1,4 @@
-class TiketKeretaEksekutif extends TiketKereta {
+class TiketKeretaEksekutif extends TiketKeretaUTS {
     private String fasilitasTambahan;
 
     public TiketKeretaEksekutif(String idTiket, double hargaDasar, String namaKereta, String tanggal, String fasilitasTambahan) {
